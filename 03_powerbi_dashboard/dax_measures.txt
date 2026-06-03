@@ -1,0 +1,230 @@
+# =========================================================
+
+# OLYMPIC ANALYTICS PLATFORM
+
+# POWER BI DAX MEASURES
+
+# =========================================================
+
+---
+
+## -- EXECUTIVE OVERVIEW
+
+Total Athletes =
+DISTINCTCOUNT(fact_participations[athlete_id])
+
+Total Countries =
+DISTINCTCOUNT(dim_countries[country_name])
+
+Total Participations =
+COUNTROWS(fact_participations)
+
+Total Sports =
+DISTINCTCOUNT(dim_sports[sport_name])
+
+Total Medals =
+CALCULATE(
+COUNTROWS(fact_participations),
+fact_participations[medal_type] <> "No Medal"
+)
+
+Gold Medals =
+CALCULATE(
+COUNTROWS(fact_participations),
+fact_participations[medal_type] = "Gold"
+)
+
+Silver Medals =
+CALCULATE(
+COUNTROWS(fact_participations),
+fact_participations[medal_type] = "Silver"
+)
+
+Bronze Medals =
+CALCULATE(
+COUNTROWS(fact_participations),
+fact_participations[medal_type] = "Bronze"
+)
+
+---
+
+## -- COUNTRY PERFORMANCE
+
+Country Medals =
+CALCULATE(
+COUNTROWS(fact_participations),
+fact_participations[medal_type] <> "No Medal"
+)
+
+Leading Country =
+MAXX(
+TOPN(
+1,
+VALUES(dim_countries[country_name]),
+[Country Medals],
+DESC
+),
+dim_countries[country_name]
+)
+
+Country Participations =
+COUNTROWS(fact_participations)
+
+Country Sports =
+DISTINCTCOUNT(dim_sports[sport_name])
+
+---
+
+## -- ATHLETE PERFORMANCE
+
+Average Age =
+ROUND(
+AVERAGE(dim_athletes[age]),
+1
+)
+
+Average Height =
+ROUND(
+AVERAGE(dim_athletes[height_cm]),
+1
+)
+
+Average Weight =
+ROUND(
+AVERAGE(dim_athletes[weight_kg]),
+1
+)
+
+Average BMI =
+ROUND(
+DIVIDE(
+AVERAGE(dim_athletes[weight_kg]),
+POWER(
+AVERAGE(dim_athletes[height_cm]) / 100,
+2
+)
+),
+1
+)
+
+Top Athlete Medals =
+COUNTROWS(fact_participations)
+
+---
+
+## -- GENDER ANALYSIS
+
+Male Athletes =
+CALCULATE(
+DISTINCTCOUNT(dim_athletes[athlete_id]),
+dim_athletes[gender] = "M"
+)
+
+Female Athletes =
+CALCULATE(
+DISTINCTCOUNT(dim_athletes[athlete_id]),
+dim_athletes[gender] = "F"
+)
+
+Male Medals =
+CALCULATE(
+[Total Medals],
+dim_athletes[gender] = "M"
+)
+
+Female Medals =
+CALCULATE(
+[Total Medals],
+dim_athletes[gender] = "F"
+)
+
+Male Participation % =
+DIVIDE(
+[Male Athletes],
+[Total Athletes]
+)
+
+Female Participation % =
+DIVIDE(
+[Female Athletes],
+[Total Athletes]
+)
+
+---
+
+## -- HISTORICAL TRENDS
+
+First Olympic Year =
+MIN(dim_date[year])
+
+Latest Olympic Year =
+MAX(dim_date[year])
+
+Years Covered =
+[Latest Olympic Year]
+---------------------
+
+[First Olympic Year]
+
+Historical Medals =
+[Total Medals]
+
+Average Athlete Age =
+ROUND(
+AVERAGE(dim_athletes[age]),
+1
+)
+
+Participation Growth =
+COUNTROWS(fact_participations)
+
+---
+
+## -- PROJECT INSIGHTS
+
+Countries Participating =
+DISTINCTCOUNT(dim_countries[country_name])
+
+Sports Represented =
+DISTINCTCOUNT(dim_sports[sport_name])
+
+Medal Success Rate =
+DIVIDE(
+[Total Medals],
+[Total Participations]
+)
+
+Gold Medal Rate =
+DIVIDE(
+[Gold Medals],
+[Total Medals]
+)
+
+---
+
+## -- MACHINE LEARNING SUPPORT
+
+Athletes Used For ML =
+DISTINCTCOUNT(dim_athletes[athlete_id])
+
+Medal Winners =
+CALCULATE(
+COUNTROWS(fact_participations),
+fact_participations[medal_type] <> "No Medal"
+)
+
+Non Medal Winners =
+CALCULATE(
+COUNTROWS(fact_participations),
+fact_participations[medal_type] = "No Medal"
+)
+
+Medal Win Rate =
+DIVIDE(
+[Medal Winners],
+[Total Participations]
+)
+
+---
+
+## -- END OF FILE

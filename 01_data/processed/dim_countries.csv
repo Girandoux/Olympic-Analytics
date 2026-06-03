@@ -1,0 +1,207 @@
+﻿country_id;country_name;noc
+1;Romania;ROT
+2;Tuvalu;TUV
+3;Zimbabwe;ZIM
+4;Zambia;ZAM
+5;Yemen;YMD
+6;Virgin Islands, US;ISV
+7;Virgin Islands, British;IVB
+8;Vietnam;VIE
+9;Venezuela;VEN
+10;Vanuatu;VAN
+11;Uzbekistan;UZB
+12;USA;USA
+13;Uruguay;URU
+14;United Arab Emirates;UAE
+15;Ukraine;UKR
+16;Grossbritannien;GBR
+17;Uganda;UGA
+18;Turkmenistan;TKM
+19;Turkey;TUR
+20;Tunisia;TUN
+21;Trinidad;TTO
+22;Tonga;TGA
+23;Togo;TOG
+24;Timor-Leste;TLS
+25;Thailand;THA
+26;Tanzania;TAN
+27;Tajikistan;TJK
+28;Taiwan;TPE
+29;Syria;SYR
+30;Switzerland;SUI
+31;Sweden;SWE
+32;Swaziland;SWZ
+33;Suriname;SUR
+34;Sudan;SUD
+35;Sri Lanka;SRI
+36;Spain;ESP
+37;South Sudan;SSD
+38;South Korea;KOR
+39;South Africa;RSA
+40;Somalia;SOM
+41;Solomon Islands;SOL
+42;Slovenia;SLO
+43;Slovakia;SVK
+44;Sierra Leone;SLE
+45;Seychelles;SEY
+46;Serbia;YUG
+47;Senegal;SEN
+48;Saudi Arabia;KSA
+49;Sao Tome and Principe;STP
+50;San Marino;SMR
+51;Samoa;SAM
+52;Saint Vincent;VIN
+53;Saint Lucia;LCA
+54;Saint Kitts;SKN
+55;Rwanda;RWA
+56;Russia;RUS
+57;Republic of Congo;CGO
+58;Qatar;QAT
+59;Puerto Rico;PUR
+60;Portugal;POR
+61;Poland;POL
+62;Philippines;PHI
+63;Peru;PER
+64;Paraguay;PAR
+65;Papua New Guinea;PNG
+66;Panama;PAN
+67;Palestine;PLE
+68;Palau;PLW
+69;Pakistan;PAK
+70;Oman;OMA
+71;Norway;NOR
+72;North Korea;PRK
+73;Nigeria;NGR
+74;Niger;NIG
+75;Nicaragua;NCA
+76;New Zealand;NZL
+77;Netherlands;NED
+78;Nepal;NEP
+79;Nauru;NRU
+80;Namibia;NAM
+81;Myanmar;MYA
+82;Mozambique;MOZ
+83;Morocco;MAR
+84;Montenegro;MNE
+85;Mongolia;MGL
+86;Monaco;MON
+87;Moldova;MDA
+88;Micronesia;FSM
+89;Mexico;MEX
+90;Mauritius;MRI
+91;Mauritania;MTN
+92;Marshall Islands;MHL
+93;Malta;MLT
+94;Mali;MLI
+95;Maldives;MDV
+96;Malaysia;MAL
+97;Malawi;MAW
+98;Madagascar;MAD
+99;Macedonia;MKD
+100;Luxembourg;LUX
+101;Lithuania;LTU
+102;Liechtenstein;LIE
+103;Libya;LBA
+104;Liberia;LBR
+105;Lesotho;LES
+106;Lebanon;LIB
+107;Latvia;LAT
+108;Laos;LAO
+109;Kyrgyzstan;KGZ
+110;Kuwait;KUW
+111;Kosovo;KOS
+112;Kiribati;KIR
+113;Kenya;KEN
+114;Kazakhstan;KAZ
+115;Jordan;JOR
+116;Japan;JPN
+117;Jamaica;JAM
+118;Ivory Coast;CIV
+119;Italy;ITA
+120;Israel;ISR
+121;Ireland;IRL
+122;Iraq;IRQ
+123;Iran;IRI
+124;Indonesia;INA
+125;Individual Olympic Athletes;IOA
+126;India;IND
+127;Iceland;ISL
+128;Hungary;HUN
+129;Honduras;HON
+130;Haiti;HAI
+131;Guyana;GUY
+132;Guinea-Bissau;GBS
+133;Guinea;GUI
+134;Guatemala;GUA
+135;Guam;GUM
+136;Grenada;GRN
+137;Greece;GRE
+138;Ghana;GHA
+139;Germany;SAA
+140;Georgia;GEO
+141;Gambia;GAM
+142;Gabon;GAB
+143;France;FRA
+144;Finland;FIN
+145;Fiji;FIJ
+146;Ethiopia;ETH
+147;Estonia;EST
+148;Eritrea;ERI
+149;Equatorial Guinea;GEQ
+150;El Salvador;ESA
+151;Egypt;EGY
+152;Ecuador;ECU
+153;Dominican Republic;DOM
+154;Dominica;DMA
+155;Djibouti;DJI
+156;Denmark;DEN
+157;Democratic Republic of the Congo;COD
+158;Czech Republic;TCH
+159;Cyprus;CYP
+160;Curacao;AHO
+161;Cuba;CUB
+162;Croatia;CRO
+163;Costa Rica;CRC
+164;Cook Islands;COK
+165;Comoros;COM
+166;Colombia;COL
+167;China;CHN
+168;Chile;CHI
+169;Chad;CHA
+170;Central African Republic;CAF
+171;Cayman Islands;CAY
+172;Cape Verde;CPV
+173;Canada;CAN
+174;Cameroon;CMR
+175;Cambodia;CAM
+176;Burundi;BDI
+177;Burkina Faso;BUR
+178;Bulgaria;BUL
+179;Brunei;BRU
+180;Brazil;BRA
+181;Botswana;BOT
+182;Bosnia and Herzegovina;BIH
+183;Boliva;BOL
+184;Bhutan;BHU
+185;Bermuda;BER
+186;Benin;BEN
+187;Belize;BIZ
+188;Belgium;BEL
+189;Belarus;BLR
+190;Barbados;BAR
+191;Bangladesh;BAN
+192;Bahrain;BRN
+193;Bahamas;BAH
+194;Azerbaijan;AZE
+195;Austria;AUT
+196;Australia;AUS
+197;Aruba;ARU
+198;Armenia;ARM
+199;Argentina;ARG
+200;Antigua;ANT
+201;Angola;ANG
+202;Andorra;AND
+203;American Samoa;ASA
+204;Algeria;ALG
+205;Albania;ALB
+206;Afghanistan;AFG

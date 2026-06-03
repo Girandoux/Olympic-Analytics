@@ -1,0 +1,87 @@
+{
+  "name": "Olympic Analytics Theme",
+  "dataColors": [
+    "#0A3D62",
+    "#1E88E5",
+    "#F4C430",
+    "#C0C0C0",
+    "#CD7F32",
+    "#26A69A",
+    "#5C6BC0",
+    "#EF5350",
+    "#8E24AA",
+    "#43A047"
+  ],
+
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#F4C430",
+
+  "visualStyles": {
+
+    "*": {
+      "*": {
+
+        "title": [
+          {
+            "show": true,
+            "fontSize": 14,
+            "fontFamily": "Segoe UI",
+            "color": {
+              "solid": {
+                "color": "#0A3D62"
+              }
+            }
+          }
+        ],
+
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#374151"
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "card": {
+      "*": {
+
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#6B7280"
+              }
+            }
+          }
+        ],
+
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0A3D62"
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "tableEx": {
+      "*": {
+
+        "grid": [
+          {
+            "gridVertical": true,
+            "gridHorizontal": true
+          }
+        ]
+      }
+    }
+  }
+}

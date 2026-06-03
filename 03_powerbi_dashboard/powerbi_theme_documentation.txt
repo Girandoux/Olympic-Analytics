@@ -1,0 +1,223 @@
+========================================================= OLYMPIC ANALYTICS THEME DOCUMENTATION
+THEME NAME
+
+Olympic Analytics Theme
+
+DESIGN CONCEPT
+
+Das Theme basiert auf den offiziellen olympischen Farben
+sowie modernen Business-Intelligence-Dashboards.
+
+Ziele:
+
+Professionelles Erscheinungsbild
+Einheitliches Dashboard Design
+Hohe Lesbarkeit
+Recruiter-freundliche Visualisierung
+Konsistentes Farbschema über alle Seiten
+
+#0A3D62
+Dunkelblau (Primary Color)
+
+Verwendung:
+
+KPI Cards
+Dashboard Titel
+Hauptdiagramme
+Executive Overview
+
+#1E88E5
+Olympic Blue
+
+Verwendung:
+
+Liniencharts
+Zeitreihen
+Participation Growth
+Country Trends
+
+#F4C430
+Olympic Gold
+
+Verwendung:
+
+Gold Medals
+Highlights
+Top Rankings
+KPI Highlights
+
+#C0C0C0
+Silver
+
+Verwendung:
+
+Silver Medals
+Sekundäre Kennzahlen
+
+#CD7F32
+Bronze
+
+Verwendung:
+
+Bronze Medals
+Dritte Platzierungen
+
+#26A69A
+Turquoise
+
+Verwendung:
+
+Athlete Performance
+Body Metrics
+Scatter Charts
+
+#5C6BC0
+Indigo
+
+Verwendung:
+
+Vergleichsdiagramme
+Historische Analysen
+
+#EF5350
+Red
+
+Verwendung:
+
+Historical Trends
+Warnungen
+Negative Entwicklungen
+
+#8E24AA
+Purple
+
+Verwendung:
+
+Gender Analysis
+Diversity Analytics
+
+#43A047
+Green
+
+Verwendung:
+
+Positive Trends
+Growth Metrics
+Project Insights
+📊 EXECUTIVE OVERVIEW
+
+KPIs:
+#0A3D62
+
+Medals Over Time:
+#F4C430
+
+Top Countries:
+#0A3D62
+
+Sports Distribution:
+#26A69A
+
+Participation Growth:
+#1E88E5
+
+=========================================================
+
+🌍 COUNTRY PERFORMANCE ANALYSIS
+
+KPIs:
+#0A3D62
+
+Top Country Ranking:
+#F4C430
+
+Country Evolution:
+#1E88E5
+
+Country Heatmap:
+#0A3D62 → #F4C430
+
+Country-Sport Heatmap:
+#1E88E5 → #F4C430
+
+=========================================================
+
+🏃 ATHLETE PERFORMANCE ANALYSIS
+
+KPIs:
+#26A69A
+
+Top Athletes:
+#F4C430
+
+Height vs Weight:
+#1E88E5
+
+Average Age by Sport:
+#26A69A
+
+Athlete Age Evolution:
+#5C6BC0
+
+=========================================================
+
+👥 GENDER & DIVERSITY ANALYSIS
+
+Male:
+#1E88E5
+
+Female:
+#8E24AA
+
+Gender Participation:
+Blau + Lila
+
+Gender Medals:
+Gold + Blau + Lila
+
+=========================================================
+
+📈 HISTORICAL TRENDS ANALYSIS
+
+KPIs:
+#0A3D62
+
+Athlete Age Evolution:
+#1E88E5
+
+Medal Growth:
+#F4C430
+
+Participation Growth:
+#43A047
+
+Country Dominance Timeline:
+Mehrfarbig Theme Palette
+
+=========================================================
+
+📖 PROJECT INSIGHTS & CONCLUSIONS
+
+KPIs:
+#0A3D62
+
+Recommendations:
+#43A047
+
+Project Summary:
+#26A69A
+
+Key Findings:
+#F4C430
+
+Background:
+#FFFFFF
+
+Text:
+#1F2937
+
+Labels:
+#374151
+
+Table Accent:
+#F4C430
