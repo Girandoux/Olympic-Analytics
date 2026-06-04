@@ -381,8 +381,9 @@ streamlit run app.py
 
 Data Scientist / Data Analyst
 
-* LinkedIn
-* GitHub
+* [LinkedIn] www.linkedin.com/in/girandoux-fandio
+
+* [GitHub](https://github.com/Girandoux/Olympic-Analytics)
 
 ---
 
