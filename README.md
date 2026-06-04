@@ -14,7 +14,7 @@ Das Projekt kombiniert:
 * 📈 Power BI Dashboards
 * 🐍 Python Data Science
 * 🤖 Machine Learning
-* 🌐 Streamlit Web Application
+* 🌐 Streamlit Web Application : https://olympic-analytic.streamlit.app/
 
 Ziel des Projekts ist die Analyse historischer Olympischer Daten, die Visualisierung globaler Sporttrends sowie die Entwicklung eines Machine-Learning-Modells zur Vorhersage von Medaillenchancen.
 
@@ -381,7 +381,7 @@ streamlit run app.py
 
 Data Scientist / Data Analyst
 
-* [LinkedIn] www.linkedin.com/in/girandoux-fandio
+* [LinkedIn](https://www.linkedin.com/in/girandoux-fandio)
 
 * [GitHub](https://github.com/Girandoux/Olympic-Analytics)
 
