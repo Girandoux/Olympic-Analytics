@@ -47,12 +47,14 @@ st.set_page_config(
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv(
-        "data/olympics_BI_cleaned.csv"
-    )
+    current_dir = Path(__file__).parent
 
-    return df
+    csv_path = current_dir / "data" / "olympics_BI_cleaned.csv"
 
+    st.write("CSV Path:", csv_path)
+    st.write("CSV Exists:", csv_path.exists())
+
+    return pd.read_csv(csv_path)
 
 df = load_data()
 

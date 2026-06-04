@@ -228,6 +228,8 @@ Interaktive Data-Analytics-Webplattform mit Streamlit.
 │   └── 6_Project_Insights.py
 │
 ├── data/
+│   ├── future_olympic_predictions.parquet
+│   ├── olympics_BI_cleaned.csv
 │   └── olympics_ML_cleaned.csv
 │
 ├── models/
