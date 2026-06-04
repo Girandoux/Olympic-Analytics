@@ -356,9 +356,8 @@ pip install -r requirements.txt
 
 # ▶️ Streamlit starten
 
-```bash
 https://olympic-analytic.streamlit.app/
-
+```bash
 cd 05_streamlit_app
 
 streamlit run app.py
