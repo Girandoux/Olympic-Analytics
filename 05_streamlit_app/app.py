@@ -45,7 +45,7 @@ st.set_page_config(
 # 3. DATEN LADEN
 # =========================================================
 
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).parent.parent
 
 
 @st.cache_data
