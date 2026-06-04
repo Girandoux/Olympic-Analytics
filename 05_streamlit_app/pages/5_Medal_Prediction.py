@@ -20,11 +20,17 @@ import joblib
 # 2. DATA LOADING
 # =========================================================
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent
+
+
 @st.cache_data
 def load_ml_data():
 
     return pd.read_csv(
-        "data/olympics_ML_cleaned.csv"
+
+        BASE_DIR / "data" / "olympics_ML_cleaned.csv"
     )
 
 
@@ -32,7 +38,8 @@ def load_ml_data():
 def load_future_predictions():
 
     return pd.read_parquet(
-        "data/future_olympic_predictions.parquet"
+
+        BASE_DIR / "data" / "future_olympic_predictions.parquet"
     )
 
 
@@ -47,7 +54,8 @@ df = st.session_state["filtered_df"]
 # =========================================================
 
 model = joblib.load(
-    "models/olympic_medal_model.pkl"
+
+    BASE_DIR / "models" / "olympic_medal_model.pkl"
 )
 
 # =========================================================
