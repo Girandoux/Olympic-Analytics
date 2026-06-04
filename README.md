@@ -193,6 +193,8 @@ Vorhersage der Wahrscheinlichkeit eines Medaillengewinns.
 
 # 🌐 Streamlit Web Application
 
+https://olympic-analytic.streamlit.app/
+
 ## 📁 05_streamlit_app
 
 Interaktive Data-Analytics-Webplattform mit Streamlit.
@@ -355,6 +357,8 @@ pip install -r requirements.txt
 # ▶️ Streamlit starten
 
 ```bash
+https://olympic-analytic.streamlit.app/
+
 cd 05_streamlit_app
 
 streamlit run app.py
