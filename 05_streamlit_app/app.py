@@ -45,14 +45,17 @@ st.set_page_config(
 # 3. DATEN LADEN
 # =========================================================
 
+BASE_DIR = Path(__file__).parent
+
+
 @st.cache_data
 def load_data():
 
-    current_dir = Path(__file__).parent
+    return pd.read_csv(
 
-    csv_path = current_dir / "data" / "olympics_BI_cleaned.csv"
+        BASE_DIR / "data" / "olympics_BI_cleaned.csv"
+    )
 
-    return pd.read_csv(csv_path)
 
 df = load_data()
 
