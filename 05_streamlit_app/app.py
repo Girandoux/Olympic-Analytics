@@ -52,9 +52,6 @@ def load_data():
 
     csv_path = current_dir / "data" / "olympics_BI_cleaned.csv"
 
-    st.write("CSV Path:", csv_path)
-    st.write("CSV Exists:", csv_path.exists())
-
     return pd.read_csv(csv_path)
 
 df = load_data()
